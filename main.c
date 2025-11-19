@@ -4,6 +4,7 @@
 #include "Kalkulator_Resistor_Seri.h"
 #include "Kalkulator_Konversi_Desimal.h"
 #include "project_kalkulator_dan_konversi.h"
+#include "kalkulator_daya_final.h"
 
 
 int main(){
@@ -21,6 +22,12 @@ int main(){
         if(pilihan == 1){
             menuHitungTegangan();
             printf("\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+        }
+
+        else if(pilihan == 2){
+            KalkulatorDaya();
+            printf("\n\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
         }
 
