@@ -26,7 +26,7 @@ int main(){
 
         else if(pilihan == 3){
             kalkulatorResistorSeri(nomor);
-            printf("\nTekan ENTER untuk lanjut.");
+            printf("\n\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
 
         }

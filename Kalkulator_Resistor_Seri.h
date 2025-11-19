@@ -11,12 +11,13 @@ int kalkulatorResistorSeri (int nomor){
 
     for (int i = 1; i <= nomor; i++){
         int resistor;
-        printf("Resitor ke-%d: ", i);
+        printf("Resitor ke-%d (dalam Ohm): ", i);
         scanf("%d", &resistor);
         resistor_ekivalen += resistor;
 
     }
-    printf("\nJadi, nilai dari resistor ekivalennya adalah: %d\n", resistor_ekivalen);
+    printf("\nJadi, nilai dari resistor ekivalennya adalah: %d ", resistor_ekivalen);
+    printf("Ohm");
     /*printf("\nTekan ENTER untuk lanjut.");
     getchar(); getchar();*/
 
