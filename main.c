@@ -17,14 +17,9 @@ int main(){
         tampilan_Menu();
         scanf("%d", &pilihan);
         system("cls");
+
         if(pilihan == 1){
             menuHitungTegangan();
-            printf("\nTekan ENTER untuk lanjut.");
-            getchar(); getchar();
-        }
-
-        else if(pilihan == 6){
-            menuBinerKeDesimal();
             printf("\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
         }
@@ -46,6 +41,13 @@ int main(){
             printf("\n\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
         }
+
+        else if(pilihan == 6){
+            menuBinerKeDesimal();
+            printf("\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+        }
+
         else if(pilihan == 9){break;}
         
         else {
