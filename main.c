@@ -73,7 +73,11 @@ int main(){
             getchar(); getchar();
         }
 
-        else if(pilihan == 9){break;}
+        else if(pilihan == 9){
+            printf("Terimakasih Sudah Menggunakan Layanan Kami!");
+            printf("\n\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+            break;}
         
         else {
             printf("\nGak Valid wak Ulangi! (Tekan tombol apa saja)\n\n");
