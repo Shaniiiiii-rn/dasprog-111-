@@ -51,7 +51,8 @@ int main(){
         else if(pilihan == 9){break;}
         
         else {
-            printf("\nGak Valid wak Ulangi!\n\n");
+            printf("\nGak Valid wak Ulangi! (Tekan tombol apa saja)\n\n");
+            getchar(); getchar();
         }
     }
 
