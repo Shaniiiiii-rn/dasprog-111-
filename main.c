@@ -3,6 +3,7 @@
 #include "tampilanMenu.h"
 #include "Kalkulator_Resistor_Seri.h"
 #include "Kalkulator_Konversi_Desimal.h"
+#include "project_kalkulator_dan_konversi.h"
 
 
 int main(){
@@ -16,13 +17,25 @@ int main(){
         tampilan_Menu();
         scanf("%d", &pilihan);
         system("cls");
-        if(pilihan == 3){
+        if(pilihan == 1){
+            menuHitungTegangan();
+            printf("\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+        }
+
+        else if(pilihan == 6){
+            menuBinerKeDesimal();
+            printf("\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+        }
+
+        else if(pilihan == 3){
             kalkulatorResistorSeri(nomor);
             printf("\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
 
         }
-        if (pilihan == 5){
+        else if (pilihan == 5){
             printf("===SELAMAT DATANG DI KALKULATOR KONVERSI DeBOH (Desimal ke Biner, Oktal, dan Heksadesimal)===\n\n");
             printf("Masukkan nilai desimal: ");
             scanf("%d", &desimal);
@@ -33,7 +46,7 @@ int main(){
             printf("\n\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
         }
-        if(pilihan == 9){break;}
+        else if(pilihan == 9){break;}
         
         else {
             printf("\nGak Valid wak Ulangi!\n\n");

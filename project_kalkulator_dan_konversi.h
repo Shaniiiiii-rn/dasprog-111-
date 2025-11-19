@@ -19,17 +19,6 @@ int binerKeDesimal(char biner[]) {
     return desimal;
 }
 
-void tampilkanMenu() {
-    printf("\n========================================\n");
-    printf("     KALKULATOR LISTRIK & KONVERSI\n");
-    printf("========================================\n");
-    printf("1. Hitung Tegangan (V = I x R)\n");
-    printf("6. Konversi Biner ke Desimal\n");
-    printf("0. Keluar\n");
-    printf("========================================\n");
-    printf("Pilih menu: ");
-}
-
 void menuHitungTegangan() {
     float I, R;
     printf("\n--- HITUNG TEGANGAN ---\n");
@@ -50,13 +39,13 @@ void menuBinerKeDesimal() {
     
     int hasil = binerKeDesimal(biner);
     if (hasil >= 0) {
-        printf("Hasil dalam desimal: %d\n", hasil);
+        printf("Bilangan desimal: %d\n", hasil);
     } else {
         printf("Error: Input biner tidak valid! Hanya boleh 0 dan 1.\n");
     }
 }
 
-int main() {
+/*int main() {
     int pilihan;
     do {
         tampilkanMenu();
@@ -83,4 +72,4 @@ int main() {
     } while (pilihan != 0);
     
     return 0;
-}
+}*/
