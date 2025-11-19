@@ -24,7 +24,7 @@ void tampilkanMenu() {
     printf("     KALKULATOR LISTRIK & KONVERSI\n");
     printf("========================================\n");
     printf("1. Hitung Tegangan (V = I x R)\n");
-    printf("2. Konversi Biner ke Desimal\n");
+    printf("6. Konversi Biner ke Desimal\n");
     printf("0. Keluar\n");
     printf("========================================\n");
     printf("Pilih menu: ");
@@ -66,7 +66,7 @@ int main() {
             case 1:
                 menuHitungTegangan();
                 break;
-            case 2:
+            case 6:
                 menuBinerKeDesimal();
                 break;
             case 0:
