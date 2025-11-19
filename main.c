@@ -5,6 +5,7 @@
 #include "Kalkulator_Konversi_Desimal.h"
 #include "project_kalkulator_dan_konversi.h"
 #include "kalkulator_daya_final.h"
+#include "konversi_oktal_ke_desimal.h"
 
 
 int main(){
@@ -53,6 +54,13 @@ int main(){
             menuBinerKeDesimal();
             printf("\nTekan ENTER untuk lanjut.");
             getchar(); getchar();
+        }
+
+        else if(pilihan == 7){
+            KalkulatorOktal();
+            printf("\n\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+
         }
 
         else if(pilihan == 9){break;}
