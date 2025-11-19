@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main (){
+int kalkulatorResistorSeri (int nomor){
 
-    int nomor;
     int resistor_ekivalen = 0;
     printf("---Kalkulator Resistor Seri---\n");
     printf("\nMasukkan berapa resistor yang ada dalam rangkaian seri: ");
@@ -18,10 +17,7 @@ int main (){
 
     }
     printf("\nJadi, nilai dari resistor ekivalennya adalah: %d\n", resistor_ekivalen);
-    printf("\nTekan ENTER untuk lanjut.");
-    getchar(); getchar();
-
-    
-    return 0;
+    /*printf("\nTekan ENTER untuk lanjut.");
+    getchar(); getchar();*/
 
 }

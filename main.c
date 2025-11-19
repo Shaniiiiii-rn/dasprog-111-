@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "tampilanMenu.h"
+#include "Kalkulator_Resistor_Seri.h"
+#include "Kalkulator_Konversi_Desimal.h"
+
+
+int main(){
+    int pilihan;
+    int nomor;
+    int desimal;
+    int biner[32], Oktal[32];
+
+    while (1){
+        system("cls");
+        tampilan_Menu();
+        scanf("%d", &pilihan);
+        system("cls");
+        if(pilihan == 3){
+            kalkulatorResistorSeri(nomor);
+            printf("\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+
+        }
+        if (pilihan == 5){
+            printf("===SELAMAT DATANG DI KALKULATOR KONVERSI DeBOH (Desimal ke Biner, Oktal, dan Heksadesimal)===\n\n");
+            printf("Masukkan nilai desimal: ");
+            scanf("%d", &desimal);
+            printf("\nHasil Konversi: \n");
+            desimalKeBiner(desimal, biner);
+            desimalKeOktal(desimal, Oktal);
+            printf("\nBilangan Heksadesimal: %X", desimal);
+            printf("\n\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+        }
+        if(pilihan == 9){break;}
+        
+        else {
+            printf("\nGak Valid wak Ulangi!\n\n");
+        }
+    }
+
+}

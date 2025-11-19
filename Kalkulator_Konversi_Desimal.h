@@ -29,9 +29,9 @@ int desimalKeOktal(int desimal, int Oktal[32]){
 
 }
 
-int main(){
+/*int main(){
     int desimal;
-    int biner[32], Oktal[32], Heksadesimal[32];
+    int biner[32], Oktal[32];
     printf("===SELAMAT DATANG DI KALKULATOR KONVERSI DeBOH (Desimal ke Biner, Oktal, dan Heksadesimal)===\n\n");
     printf("Masukkan nilai desimal: ");
     scanf("%d", &desimal);
@@ -44,4 +44,4 @@ int main(){
 
     return 0;
 
-}
+}*/
