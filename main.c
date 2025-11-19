@@ -63,6 +63,16 @@ int main(){
 
         }
 
+        else if(pilihan == 8){
+            int heksadesimal;
+            printf("---SELAMAT DATANG DI KALKULATOR KONVERSI HeksaMal (Heksadesimal ke Desimal)---\n\n");
+            printf("Masukkan bilangan heksadesimal: ");
+            scanf("%X", &heksadesimal);
+            printf("\nBilangan Desimal: %d", heksadesimal);
+            printf("\n\nTekan ENTER untuk lanjut.");
+            getchar(); getchar();
+        }
+
         else if(pilihan == 9){break;}
         
         else {
