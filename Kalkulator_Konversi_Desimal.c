@@ -38,7 +38,10 @@ int main(){
     printf("\nHasil Konversi: \n");
     desimalKeBiner(desimal, biner);
     desimalKeOktal(desimal, Oktal);
+    printf("\nBilangan Heksadesimal: %X", desimal);
+    printf("\n\nTekan ENTER untuk lanjut.");
+    getchar(); getchar();
 
-
+    return 0;
 
 }
