@@ -91,15 +91,89 @@ Keterangan:
 Fitur ini mengonversi satu bilangan desimal ke dalam tiga sistem bilangan lain secara bersamaan, yaitu biner (basis 2), oktal (basis 8), dan heksadesimal (basis 16).
 Konversi dilakukan menggunakan algoritma sisa pembagian, sehingga hasil konversi diperoleh secara sistematis dan sesuai dengan konsep sistem bilangan pada rangkaian digital.
 Fitur ini sangat membantu praktikan dalam proses debugging dan analisis data digital.
-
+````
+Algoritma desimal=> biner:
+1. Mulai.
+2. Input sebuah bilangan desimal N.
+3. Inisialisasi array biner[] dan indeks i = 0.
+4. Selama N > 0 lakukan:
+     - Simpan sisa pembagian N % 2 ke biner[i].
+     - Bagi N dengan 2 (N = N / 2).
+     - Tambahkan i sebesar 1.
+5. Cetak isi array biner dari indeks terakhir ke indeks 0.
+6. Selesai.
+# Konsep yang digunakan: Algoritma sisa pembagian (basis 2)
+````
+````
+Algoritma desimal=> oktal:
+1. Mulai.
+2. Input sebuah bilangan desimal N.
+3. Inisialisasi array oktal[] dan indeks i = 0.
+4. Selama N > 0 lakukan:
+     - Simpan sisa pembagian N % 8 ke oktal[i].
+     - Bagi N dengan 8 (N = N / 8).
+     - Increment i.
+5. Cetak isi array biner dari indeks terakhir ke indeks 0.
+6. Selesai.
+# Konsep yang digunakan: Algoritma sisa pembagian (basis 8)
+````
+````
+Algoritma desimal=> heksadesimal:
+1. Mulai.
+2. Input sebuah bilangan desimal N.
+3. Program menampilkan N menggunakan format %x.
+4. Sistem C secara otomatis mengonversi bilangan desimal ke heksadesimal.
+5. Selesai.
+# Konsep yang digunakan: memanfaatkan mekanisme internal bahasa C, bukan algoritma manual.
+````
 #### 2. Konversi Biner → Desimal
 Fitur ini digunakan untuk mengonversi bilangan biner ke dalam bentuk desimal. Input bilangan biner dimasukkan dalam bentuk string untuk memastikan setiap digit dapat divalidasi.
 Program menggunakan metode posisional dan bit shifting, sehingga konversi dilakukan secara efisien dan akurat. Jika ditemukan digit selain 0 atau 1, program akan menampilkan pesan kesalahan.
-
+````
+Algoritma:
+1. Mulai.
+2. Input bilangan biner dalam bentuk string biner[].
+3. Hitung panjang string n.
+4. Inisialisasi desimal = 0.
+5. Untuk setiap digit dari indeks 0 sampai n-1:
+   - Jika digit bernilai '1', tambahkan 2^(n - 1 - indeks) ke desimal.
+   - Jika digit bukan '0' atau '1', hentikan program dan tampilkan error.
+6. Tampilkan nilai desimal.
+7. Selesai.
+# Konsep yang digunakan: Metode posisional dan bit shifting
+````
 #### 3. Konversi Oktal → Desimal
 Fitur ini mengonversi bilangan oktal ke desimal dengan melakukan validasi digit (hanya 0 hingga 7). Jika input tidak valid, program akan memberikan peringatan kepada pengguna.
 Konversi dilakukan menggunakan prinsip sistem bilangan berbasis 8 dan operasi perpangkatan.
-
+````
+Algoritma:
+1. Mulai.
+2. Input bilangan oktal N.
+3. Lakukan validasi digit:
+   - Ambil setiap digit.
+   - Jika ada digit < 0 atau > 7, tampilkan error dan hentikan.
+4. Inisialisasi:
+   - desimal = 0
+   - pangkat = 0
+5. Selama N > 0:
+   - Ambil digit terakhir (N % 10).
+   - Hitung digit × 8^pangkat.
+   - Tambahkan ke desimal.
+   - Naikkan pangkat.
+   - Bagi N dengan 10.
+6. Tampilkan nilai desimal.
+7. Selesai.
+# Konsep yang digunakan: Sistem bilangan posisional basis 8
+````
 #### 4. Konversi Heksadesimal → Desimal
 Fitur ini memungkinkan pengguna mengonversi bilangan heksadesimal ke desimal. Input dibaca menggunakan format heksadesimal sehingga karakter A–F dapat diproses dengan benar.
 Fitur ini sangat relevan dalam analisis data digital, alamat memori, dan representasi data pada sistem komputer.
+````
+Algoritma:
+1. Mulai.
+2. Input bilangan heksadesimal dari pengguna.
+3. Program membaca input menggunakan format %X.
+4. Sistem C secara otomatis mengonversi nilai heksadesimal ke desimal.
+5. Tampilkan hasil desimal.
+6. Selesai.
+````
