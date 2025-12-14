@@ -2,7 +2,7 @@
 
 
 ## Identitas Kelompok
-**Dosen Pengampu: Pak Arta** 
+**Dosen Pengampu: Arta Kusuma Hernanda, S.T., M.T.** 
 
 Kelompok: **6**
 
