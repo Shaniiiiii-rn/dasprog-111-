@@ -18,9 +18,6 @@ Kelompok: **6**
 
 Pada proyek mata kuliah Dasar Pemrograman ini berisikan toolkit lengkap sebagai alat bantu menghitung dan mengonversi dalam keperluan asistensi Laboratorium pada Departemen Teknik Elektro. Berikut adalah penjelasan pada tiap toolkit yang ada pada program yang telah dibuat.
 
-## Fitur Program 🧩
-Program Toolkit Lengkap Asisten Laboratorium Elektro menyediakan berbagai fitur yang dirancang untuk menjawab kebutuhan praktikum Dasar Rangkaian Elektrik dan Sistem Digital. Setiap fitur dibuat dalam bentuk fungsi terpisah agar mudah dipahami, diuji, dan dikembangkan lebih lanjut.
-
 ### 1. Tampilan Menu
 Pada bagian pertama, tampilan menu berfungsi sebagai tampilan paling awal yang memiliki peran penting dalam memilih dan menginisialisasi suatu program melalui perintah tertentu, dalam tampilan menu ini ialah input bilangan 1 - 9. Berikut adalah output dari Tampilan Menu yang telah dibuat.
 
