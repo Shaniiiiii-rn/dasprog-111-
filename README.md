@@ -21,7 +21,7 @@ Pada proyek mata kuliah Dasar Pemrograman ini berisikan toolkit lengkap sebagai 
 ### 1. Tampilan Menu
 Pada bagian pertama, tampilan menu berfungsi sebagai tampilan paling awal yang memiliki peran penting dalam memilih dan menginisialisasi suatu program melalui perintah tertentu, dalam tampilan menu ini ialah input bilangan 1 - 9. Berikut adalah output dari Tampilan Menu yang telah dibuat.
 
-'''
+```
 ===SELAMAT DATANG DI PROGRAM SERBABISA DASPROG!===
 
 Silahkan pilih fitur yang ingin anda jalani!
@@ -40,7 +40,7 @@ Silahkan pilih fitur yang ingin anda jalani!
 9. Keluar
 
 Silahkan pilih angka (1 - 9):
-'''
+```
 
 ### 2. Kalkulator Rangkaian Listrik
 #### 1. Kalkulator Hukum Ohm (V = I . R)
