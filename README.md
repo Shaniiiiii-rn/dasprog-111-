@@ -14,9 +14,12 @@ Kelompok: **6**
 | 4  | Abdullah Fathan Syauqi | 5022251086 | Teknik Elektro |
 
 ---
-## Deskripsi Program
+## Deskripsi Program 📌
 
 Pada proyek mata kuliah Dasar Pemrograman ini berisikan toolkit lengkap sebagai alat bantu menghitung dan mengonversi dalam keperluan asistensi Laboratorium pada Departemen Teknik Elektro. Berikut adalah penjelasan pada tiap toolkit yang ada pada program yang telah dibuat.
+
+## Fitur Program 🧩
+Program Toolkit Lengkap Asisten Laboratorium Elektro menyediakan berbagai fitur yang dirancang untuk menjawab kebutuhan praktikum Dasar Rangkaian Elektrik dan Sistem Digital. Setiap fitur dibuat dalam bentuk fungsi terpisah agar mudah dipahami, diuji, dan dikembangkan lebih lanjut.
 
 ### 1. Tampilan Menu
 Pada bagian pertama, tampilan menu berfungsi sebagai tampilan paling awal yang memiliki peran penting dalam memilih dan menginisialisasi suatu program melalui perintah tertentu, dalam tampilan menu ini ialah input bilangan 1 - 9. Berikut adalah output dari Tampilan Menu yang telah dibuat.
@@ -100,6 +103,6 @@ Program menggunakan metode posisional dan bit shifting, sehingga konversi dilaku
 Fitur ini mengonversi bilangan oktal ke desimal dengan melakukan validasi digit (hanya 0 hingga 7). Jika input tidak valid, program akan memberikan peringatan kepada pengguna.
 Konversi dilakukan menggunakan prinsip sistem bilangan berbasis 8 dan operasi perpangkatan.
 
-#### 9. Konversi Heksadesimal → Desimal
+#### 4. Konversi Heksadesimal → Desimal
 Fitur ini memungkinkan pengguna mengonversi bilangan heksadesimal ke desimal. Input dibaca menggunakan format heksadesimal sehingga karakter A–F dapat diproses dengan benar.
 Fitur ini sangat relevan dalam analisis data digital, alamat memori, dan representasi data pada sistem komputer.
