@@ -1,4 +1,4 @@
-# Final Project for "Dasar Pemrograman"
+# Demonstrasi Proyek Mata Kuliah Dasar Pemrograman: Toolkit Lengkap Asisten Laboratorium Elektro
 
 
 ## Identitas Kelompok
