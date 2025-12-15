@@ -45,31 +45,3 @@ void menuBinerKeDesimal() {
     }
 }
 
-/*int main() {
-    int pilihan;
-    do {
-        tampilkanMenu();
-        scanf("%d", &pilihan);
-        
-        switch (pilihan) {
-            case 1:
-                menuHitungTegangan();
-                break;
-            case 6:
-                menuBinerKeDesimal();
-                break;
-            case 0:
-                printf("\nTerima kasih telah menggunakan program ini!\n");
-                break;
-            default:
-                printf("\nPilihan tidak valid! Silakan coba lagi.\n");
-        }
-        
-        if (pilihan != 0) {
-            printf("\nTekan ENTER untuk kembali ke menu utama...");
-            while (getchar() != '\n'); // Membersihkan buffer input
-        }
-    } while (pilihan != 0);
-    
-    return 0;
-}*/
