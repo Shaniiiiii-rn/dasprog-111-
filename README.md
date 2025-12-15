@@ -54,7 +54,7 @@ Keterangan:
 - R : Hambatan (Ohm)
 ```
 #### 2. Kalkulator Daya Listrik
-  Fitur ini berfungsi untuk menghitung daya listrik yang terdisipasi pada suatu komponen atau rangkaian. Program meminta input nilai tegangan dan arus, lalu menghitung daya berdasarkan rumus dasar daya listrik. Fitur ini sangat berguna dalam analisis konsumsi daya dan evaluasi keamanan komponen listrik pada rangkaian DC.
+  Fitur ini berfungsi untuk menghitung daya listrik yang terdisipasi pada suatu komponen atau rangkaian. Program meminta input nilai tegangan (dalam satuan Volt) dan arus (dalam satuan Ampere), lalu menghitung daya berdasarkan rumus dasar daya listrik. Fitur ini sangat berguna dalam analisis konsumsi daya dan evaluasi keamanan komponen listrik pada rangkaian DC.
 Rumus yang digunakan:
 ```
 P = V × I
