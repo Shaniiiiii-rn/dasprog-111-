@@ -20,7 +20,7 @@ void ResistorParalel() {
     double Rtotal = 1.0 / totalKebalikan;
 
     printf("Total Hambatan Paralel adalah: %.2lf Ohm\n", Rtotal);
-    printf("Tekan Enter untuk kembali ke menu utama...");
+    printf("Tekan enter untuk kembali ke menu utama...");
     getchar(); getchar();
 }
 void hexKeDesimal() {
@@ -53,6 +53,6 @@ void hexKeDesimal() {
     }
 
     printf("Hasil Desimal: %lld\n", desimal);
-    printf("Tekan Enter untuk kembali ke menu utama...");
+    printf("Tekan enter untuk kembali ke menu utama...");
     getchar(); getchar();
 }
